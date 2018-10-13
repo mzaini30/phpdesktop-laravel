@@ -2,7 +2,24 @@
 
 # Instalasi
 
-Buat folder `www/`.
+Buat folder `www/` kemudian salin proyek Laravel ke situ.
+
+Buka `www/.env` kemudian ubah baris berikut:
+
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nama_database
+DB_USERNAME=username
+DB_PASSWORD=password
+```
+
+menjadi:
+
+```
+DB_CONNECTION=sqlite
+```
 
 Install `dependencies/vc_redist.x86.exe`.
 
