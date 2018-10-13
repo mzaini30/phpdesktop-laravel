@@ -1,0 +1,1 @@
+./mysql2sqlite.sh  DBNAME --databases DBNAME -u DB_USERNAME -pDB_PASSWORD | sqlite3 database.sqlite

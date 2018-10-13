@@ -1,0 +1,1142 @@
+- 12:29:03.375 INFO: --------------------------------------------------------
+- 12:29:03.375 INFO: Started application
+- 12:29:03.375 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:29:03.375 INFO: Log level = DEBUG4
+- 12:29:03.375 INFO: Starting Mongoose 3.9c web server
+- 12:29:03.375 INFO: WWW directory: D:\belajar\php desktop\www
+- 12:29:03.391 INFO: Index files: index.html,index.php
+- 12:29:03.391 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:29:03.391 INFO: CGI pattern: **.php$
+- 12:29:03.391 INFO: Hide files patterns: 
+- 12:29:03.391 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:29:03.469 INFO: Web server url: http://127.0.0.1:50166/
+- 12:29:03.484 INFO: remote_debugging_port = 60513
+- 12:29:03.500 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=60513
+- 12:29:04.030 DEBUG: App::OnContextInitialized()
+- 12:29:04.030 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:29:04.030 DEBUG: Window max width/height = 1288/655
+- 12:29:04.030 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:29:04.030 DEBUG: GetBrowserWindow(): not found, hwnd = 263320
+- 12:29:04.030 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:29:04.077 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:29:04.093 DEBUG: StoreBrowserWindow(): hwnd = 263320
+- 12:29:04.015 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=ED7FE864AB2B496AB41A89B6733C196C --mojo-platform-channel-handle=1284 /prefetch:2
+- 12:29:04.717 DEBUG: ClientHandler::OnAfterCreated()
+- 12:29:04.717 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:29:04.857 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:29:05.016 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=EA57BC344CA88AA685D3822EB4A6ACB1 --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=EA57BC344CA88AA685D3822EB4A6ACB1 --renderer-client-id=3 --mojo-platform-channel-handle=1552 /prefetch:1
+- 12:29:06.500 DEBUG: OnBrowserCreated()
+[1013/122906.607:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/122906.608:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/122906.608:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/122906.648:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/122906.651:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/122906.943:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/122906.944:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/122906.944:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/122906.945:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/122906.945:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 12:29:16.557 INFO: GET 500 /
+- 12:29:16.838 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50166/
+- 12:29:25.371 DEBUG: WM_DESTROY
+- 12:29:25.387 DEBUG: RemoveBrowserWindow(): hwnd = 263320
+- 12:29:25.402 INFO: Stopping Mongoose web server
+- 12:29:25.402 DEBUG: Mongoose webserver stopped immediately
+- 12:29:25.418 DEBUG: OnBeforeClose() hwnd=394350
+- 12:29:25.418 DEBUG: RemoveBrowserWindow(): hwnd = 394350
+- 12:29:25.433 DEBUG: GetBrowserWindow(): not found, hwnd = 394350
+- 12:29:25.433 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:29:25.449 DEBUG: Calling CefQuitMessageLoop()
+- 12:29:25.855 INFO: Ended application
+- 12:29:25.855 INFO: --------------------------------------------------------
+- 12:38:47.484 INFO: --------------------------------------------------------
+- 12:38:47.484 INFO: Started application
+- 12:38:47.484 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:38:47.484 INFO: Log level = DEBUG4
+- 12:38:47.484 INFO: Starting Mongoose 3.9c web server
+- 12:38:47.484 INFO: WWW directory: D:\belajar\php desktop\www
+- 12:38:47.484 INFO: Index files: index.html,index.php
+- 12:38:47.484 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:38:47.484 INFO: CGI pattern: **.php$
+- 12:38:47.484 INFO: Hide files patterns: 
+- 12:38:47.484 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:38:47.546 INFO: Web server url: http://127.0.0.1:50328/
+- 12:38:48.546 INFO: remote_debugging_port = 65384
+- 12:38:48.562 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=65384
+- 12:38:48.889 DEBUG: App::OnContextInitialized()
+- 12:38:48.889 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:38:48.889 DEBUG: Window max width/height = 1288/655
+- 12:38:48.889 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:38:48.905 DEBUG: GetBrowserWindow(): not found, hwnd = 132396
+- 12:38:48.905 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:38:48.905 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:38:48.920 DEBUG: StoreBrowserWindow(): hwnd = 132396
+- 12:38:48.248 DEBUG: ClientHandler::OnAfterCreated()
+- 12:38:48.248 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:38:48.016 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=7322AD4AECF63DCDFF6FE1D0388134C7 --mojo-platform-channel-handle=1288 /prefetch:2
+- 12:38:49.000 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2076F203F0D9490ADEE1E45576CB35EE --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=2076F203F0D9490ADEE1E45576CB35EE --renderer-client-id=3 --mojo-platform-channel-handle=1576 /prefetch:1
+- 12:38:49.591 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/123849.335:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/123849.336:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/123849.336:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+- 12:38:49.327 DEBUG: OnBrowserCreated()
+[1013/123849.365:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/123849.368:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/123849.423:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/123849.425:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/123849.426:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/123849.426:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/123849.427:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 12:38:50.120 INFO: GET 200 /
+- 12:38:51.604 INFO: GET 200 /style.css
+- 12:38:52.057 DEBUG: OnContextCreated()
+- 12:38:52.507 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50328/
+- 12:39:07.389 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50328/
+- 12:39:08.655 INFO: GET 200 /forms.php
+- 12:39:08.125 DEBUG: OnContextCreated()
+- 12:39:08.029 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50328/forms.php
+- 12:39:10.307 DEBUG: WM_DESTROY
+- 12:39:10.322 DEBUG: RemoveBrowserWindow(): hwnd = 132396
+- 12:39:10.322 INFO: Stopping Mongoose web server
+- 12:39:10.322 DEBUG: Mongoose webserver stopped immediately
+- 12:39:10.322 DEBUG: OnBeforeClose() hwnd=132390
+- 12:39:10.322 DEBUG: RemoveBrowserWindow(): hwnd = 132390
+- 12:39:10.338 DEBUG: GetBrowserWindow(): not found, hwnd = 132390
+- 12:39:10.338 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:39:10.338 DEBUG: Calling CefQuitMessageLoop()
+- 12:39:10.478 INFO: Ended application
+- 12:39:10.478 INFO: --------------------------------------------------------
+- 12:44:48.188 INFO: --------------------------------------------------------
+- 12:44:48.250 INFO: Started application
+- 12:44:48.250 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:44:48.250 INFO: Log level = DEBUG4
+- 12:44:48.250 INFO: Starting Mongoose 3.9c web server
+- 12:44:48.250 INFO: WWW directory: D:\belajar\php desktop\www
+- 12:44:48.250 INFO: Index files: index.html,index.php
+- 12:44:48.266 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:44:48.266 INFO: CGI pattern: **.php$
+- 12:44:48.266 INFO: Hide files patterns: 
+- 12:44:48.266 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:44:49.344 INFO: Web server url: http://127.0.0.1:50397/
+- 12:44:49.359 INFO: remote_debugging_port = 60312
+- 12:44:49.359 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=60312
+- 12:44:49.734 DEBUG: App::OnContextInitialized()
+- 12:44:49.734 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:44:49.734 DEBUG: Window max width/height = 1288/655
+- 12:44:49.734 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:44:49.734 DEBUG: GetBrowserWindow(): not found, hwnd = 460062
+- 12:44:49.734 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:44:49.734 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:44:49.749 DEBUG: StoreBrowserWindow(): hwnd = 460062
+- 12:44:49.124 DEBUG: ClientHandler::OnAfterCreated()
+- 12:44:49.016 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=C28E7CE1E95653D6C469274799E366DF --mojo-platform-channel-handle=1240 /prefetch:2
+- 12:44:49.124 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:44:50.326 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/124450.185:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/124450.186:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/124450.186:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+- 12:44:50.015 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=379344689B418522B249A20958AFE4CD --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=379344689B418522B249A20958AFE4CD --renderer-client-id=3 --mojo-platform-channel-handle=1576 /prefetch:1
+[1013/124450.290:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/124450.291:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/124450.402:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124450.403:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124450.403:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124450.404:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124450.404:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 12:44:50.343 DEBUG: OnBrowserCreated()
+- 12:44:50.231 INFO: GET 200 /
+- 12:44:51.590 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50397/
+- 12:44:58.016 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50397/
+- 12:45:01.167 INFO: GET 200 /public/
+- 12:45:02.274 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50397/public/
+- 12:45:08.202 DEBUG: WM_DESTROY
+- 12:45:08.202 DEBUG: RemoveBrowserWindow(): hwnd = 460062
+- 12:45:08.202 INFO: Stopping Mongoose web server
+- 12:45:08.202 DEBUG: Mongoose webserver stopped immediately
+- 12:45:08.234 DEBUG: OnBeforeClose() hwnd=722200
+- 12:45:08.234 DEBUG: RemoveBrowserWindow(): hwnd = 722200
+- 12:45:08.234 DEBUG: GetBrowserWindow(): not found, hwnd = 722200
+- 12:45:08.249 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:45:08.249 DEBUG: Calling CefQuitMessageLoop()
+- 12:45:09.390 INFO: Ended application
+- 12:45:09.390 INFO: --------------------------------------------------------
+- 12:47:27.203 INFO: --------------------------------------------------------
+- 12:47:27.203 INFO: Started application
+- 12:47:27.203 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:47:27.203 INFO: Log level = DEBUG4
+- 12:47:27.218 INFO: Starting Mongoose 3.9c web server
+- 12:47:27.218 INFO: WWW directory: D:\belajar\php desktop\www\public
+- 12:47:27.218 INFO: Index files: index.html,index.php
+- 12:47:27.234 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:47:27.234 INFO: CGI pattern: **.php$
+- 12:47:27.234 INFO: Hide files patterns: 
+- 12:47:27.265 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:47:27.359 INFO: Web server url: http://127.0.0.1:50417/
+- 12:47:27.359 INFO: remote_debugging_port = 61009
+- 12:47:27.374 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=61009
+- 12:47:27.655 DEBUG: App::OnContextInitialized()
+- 12:47:27.671 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:47:27.671 DEBUG: Window max width/height = 1288/655
+- 12:47:27.671 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:47:27.686 DEBUG: GetBrowserWindow(): not found, hwnd = 458954
+- 12:47:27.686 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:47:27.686 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:47:27.702 DEBUG: StoreBrowserWindow(): hwnd = 458954
+- 12:47:28.016 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=D2F565F3586B226D7F65E13F5F3438EC --mojo-platform-channel-handle=1280 /prefetch:2
+- 12:47:28.092 DEBUG: ClientHandler::OnAfterCreated()
+- 12:47:28.107 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[1013/124728.435:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/124728.436:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/124728.436:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/124728.617:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/124728.618:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 12:47:28.497 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:47:28.015 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B30D43AD851690F5B6851EAFE8930B8C --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=B30D43AD851690F5B6851EAFE8930B8C --renderer-client-id=3 --mojo-platform-channel-handle=1564 /prefetch:1
+- 12:47:29.201 DEBUG: OnBrowserCreated()
+- 12:47:29.232 DEBUG: renderer[1] OnProcessMessageReceived: SetIsFullscreen
+- 12:47:31.259 INFO: GET 200 /
+- 12:47:31.539 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50417/
+- 12:47:34.769 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50417/
+- 12:47:35.973 DEBUG: OnContextCreated()
+- 12:47:41.868 DEBUG: WM_DESTROY
+- 12:47:41.884 DEBUG: RemoveBrowserWindow(): hwnd = 458954
+- 12:47:41.884 INFO: Stopping Mongoose web server
+- 12:47:41.884 DEBUG: Mongoose webserver stopped immediately
+- 12:47:42.537 DEBUG: OnBeforeClose() hwnd=458966
+- 12:47:42.537 DEBUG: RemoveBrowserWindow(): hwnd = 458966
+- 12:47:42.537 DEBUG: GetBrowserWindow(): not found, hwnd = 458966
+- 12:47:42.569 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:47:42.569 DEBUG: Calling CefQuitMessageLoop()
+- 12:47:42.709 INFO: Ended application
+- 12:47:42.709 INFO: --------------------------------------------------------
+- 12:49:02.203 INFO: --------------------------------------------------------
+- 12:49:02.203 INFO: Started application
+- 12:49:02.203 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:49:02.203 INFO: Log level = DEBUG4
+- 12:49:02.203 INFO: Starting Mongoose 3.9c web server
+- 12:49:02.218 INFO: WWW directory: D:\belajar\php desktop\www\public
+- 12:49:02.218 INFO: Index files: index.html,index.php
+- 12:49:02.218 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:49:02.218 INFO: CGI pattern: **.php$
+- 12:49:02.218 INFO: Hide files patterns: 
+- 12:49:02.218 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:49:02.265 INFO: Web server url: http://127.0.0.1:50435/
+- 12:49:02.281 INFO: remote_debugging_port = 54989
+- 12:49:02.281 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=54989
+- 12:49:02.686 DEBUG: App::OnContextInitialized()
+- 12:49:02.686 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:49:02.686 DEBUG: Window max width/height = 1288/655
+- 12:49:02.686 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:49:02.702 DEBUG: GetBrowserWindow(): not found, hwnd = 458958
+- 12:49:02.702 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:49:02.702 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:49:02.702 DEBUG: StoreBrowserWindow(): hwnd = 458958
+- 12:49:03.000 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=4593040BFA9C37BE4400EB425C53D733 --mojo-platform-channel-handle=1280 /prefetch:2
+- 12:49:03.154 DEBUG: ClientHandler::OnAfterCreated()
+- 12:49:03.154 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:49:03.326 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/124903.350:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/124903.351:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/124903.351:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/124903.381:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/124903.384:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/124903.427:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124903.428:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124903.428:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124903.428:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/124903.429:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 12:49:03.016 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2BDE8216C18CB33AFCEDBCCB8A17653B --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=2BDE8216C18CB33AFCEDBCCB8A17653B --renderer-client-id=3 --mojo-platform-channel-handle=1568 /prefetch:1
+- 12:49:03.187 DEBUG: OnBrowserCreated()
+- 12:49:04.870 INFO: GET 200 /
+- 12:49:05.120 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50435/
+- 12:49:09.020 DEBUG: WM_DESTROY
+- 12:49:09.020 DEBUG: RemoveBrowserWindow(): hwnd = 458958
+- 12:49:09.020 INFO: Stopping Mongoose web server
+- 12:49:09.035 DEBUG: Mongoose webserver stopped immediately
+- 12:49:09.051 DEBUG: OnBeforeClose() hwnd=393506
+- 12:49:09.051 DEBUG: RemoveBrowserWindow(): hwnd = 393506
+- 12:49:09.051 DEBUG: GetBrowserWindow(): not found, hwnd = 393506
+- 12:49:09.051 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:49:09.067 DEBUG: Calling CefQuitMessageLoop()
+- 12:49:09.207 INFO: Ended application
+- 12:49:09.207 INFO: --------------------------------------------------------
+- 12:53:07.312 INFO: --------------------------------------------------------
+- 12:53:07.312 INFO: Started application
+- 12:53:07.312 INFO: Logging to: D:\belajar\php desktop\debug.log
+- 12:53:07.312 INFO: Log level = DEBUG4
+- 12:53:07.312 INFO: Starting Mongoose 3.9c web server
+- 12:53:07.328 INFO: WWW directory: D:\belajar\php desktop\www\public
+- 12:53:07.328 INFO: Index files: index.html,index.php
+- 12:53:07.328 INFO: CGI interpreter: D:\belajar\php desktop\php\php-cgi.exe
+- 12:53:07.328 INFO: CGI pattern: **.php$
+- 12:53:07.328 INFO: Hide files patterns: 
+- 12:53:07.328 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:53:07.406 INFO: Web server url: http://127.0.0.1:50463/
+- 12:53:07.406 INFO: remote_debugging_port = 52840
+- 12:53:07.421 DEBUG: Command line string for the browser process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --remote-debugging-port=52840
+- 12:53:08.733 DEBUG: App::OnContextInitialized()
+- 12:53:08.749 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:53:08.749 DEBUG: Window max width/height = 1288/655
+- 12:53:08.749 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 12:53:08.764 DEBUG: GetBrowserWindow(): not found, hwnd = 722224
+- 12:53:08.764 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:53:08.780 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:53:08.780 DEBUG: StoreBrowserWindow(): hwnd = 722224
+- 12:53:08.015 DEBUG: Command line string for the gpu-process process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --service-request-channel-token=E66AAE3FCF3F46375F71383A996D088F --mojo-platform-channel-handle=1320 /prefetch:2
+- 12:53:08.264 DEBUG: ClientHandler::OnAfterCreated()
+- 12:53:08.264 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:53:08.357 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/125308.981:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/125308.982:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/125308.982:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/125309.028:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/125309.029:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/125309.098:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/125309.099:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/125309.100:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/125309.100:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/125309.100:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 12:53:09.031 DEBUG: Command line string for the renderer process: "D:\belajar\php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=575DAA53EB8F2DECA075F5449F68BBCB --lang=en-US --lang=en-US --log-file="D:\belajar\php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=575DAA53EB8F2DECA075F5449F68BBCB --renderer-client-id=3 --mojo-platform-channel-handle=1560 /prefetch:1
+- 12:53:09.156 DEBUG: OnBrowserCreated()
+- 12:53:14.379 INFO: GET 200 /
+- 12:53:15.174 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50463/
+- 12:53:20.823 DEBUG: WM_DESTROY
+- 12:53:20.823 DEBUG: RemoveBrowserWindow(): hwnd = 722224
+- 12:53:20.823 INFO: Stopping Mongoose web server
+- 12:53:20.823 DEBUG: Mongoose webserver stopped immediately
+- 12:53:20.839 DEBUG: OnBeforeClose() hwnd=1835960
+- 12:53:20.854 DEBUG: RemoveBrowserWindow(): hwnd = 1835960
+- 12:53:20.854 DEBUG: GetBrowserWindow(): not found, hwnd = 1835960
+- 12:53:20.854 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:53:20.870 DEBUG: Calling CefQuitMessageLoop()
+- 12:53:20.104 INFO: Ended application
+- 12:53:20.104 INFO: --------------------------------------------------------
+- 13:33:05.170 INFO: --------------------------------------------------------
+- 13:33:05.202 INFO: Started application
+- 13:33:05.202 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 13:33:05.202 INFO: Log level = DEBUG4
+- 13:33:05.202 INFO: Starting Mongoose 3.9c web server
+- 13:33:05.202 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 13:33:05.217 INFO: Index files: index.html,index.php
+- 13:33:05.217 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 13:33:05.217 INFO: CGI pattern: **.php$
+- 13:33:05.217 INFO: Hide files patterns: 
+- 13:33:05.217 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:33:05.264 INFO: Web server url: http://127.0.0.1:49188/
+- 13:33:05.389 INFO: remote_debugging_port = 59110
+- 13:33:06.356 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=59110
+- 13:33:12.031 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=A3B03BFF78B3E22CFFB50A6A611C0A15 --mojo-platform-channel-handle=1364 /prefetch:2
+[1013/133315.975:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/133316.023:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/133316.023:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+- 13:33:16.794 DEBUG: App::OnContextInitialized()
+- 13:33:16.794 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 13:33:16.794 DEBUG: Window max width/height = 1288/655
+- 13:33:16.794 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 13:33:16.810 DEBUG: GetBrowserWindow(): not found, hwnd = 66424
+- 13:33:16.810 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:33:16.810 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:33:16.810 DEBUG: StoreBrowserWindow(): hwnd = 66424
+[1013/133316.246:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/133316.394:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 13:33:17.027 DEBUG: ClientHandler::OnAfterCreated()
+- 13:33:17.027 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:33:17.292 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:33:17.000 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BD2A858FAFA68AB2C1BB396DA4D15B8D --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --disable-webrtc-hw-vp8-encoding --disable-gpu-compositing --service-request-channel-token=BD2A858FAFA68AB2C1BB396DA4D15B8D --renderer-client-id=3 --mojo-platform-channel-handle=1376 /prefetch:1
+- 13:33:21.947 DEBUG: OnBrowserCreated()
+- 13:33:29.429 INFO: GET 200 /
+- 13:33:31.879 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49188/
+- 13:33:57.540 DEBUG: WM_DESTROY
+- 13:33:57.556 DEBUG: RemoveBrowserWindow(): hwnd = 66424
+- 13:33:57.556 INFO: Stopping Mongoose web server
+- 13:33:57.556 DEBUG: Mongoose webserver stopped immediately
+- 13:33:57.556 DEBUG: OnBeforeClose() hwnd=66430
+- 13:33:57.556 DEBUG: RemoveBrowserWindow(): hwnd = 66430
+- 13:33:57.571 DEBUG: GetBrowserWindow(): not found, hwnd = 66430
+- 13:33:57.571 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:33:57.602 DEBUG: Calling CefQuitMessageLoop()
+- 13:33:58.821 INFO: Ended application
+- 13:33:58.836 INFO: --------------------------------------------------------
+- 13:38:46.639 INFO: --------------------------------------------------------
+- 13:38:46.639 INFO: Started application
+- 13:38:46.639 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 13:38:46.639 INFO: Log level = DEBUG4
+- 13:38:46.639 INFO: Starting Mongoose 3.9c web server
+- 13:38:46.670 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 13:38:46.670 INFO: Index files: index.html,index.php
+- 13:38:46.670 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 13:38:46.702 INFO: CGI pattern: **.php$
+- 13:38:46.702 INFO: Hide files patterns: 
+- 13:38:46.702 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 13:38:46.764 INFO: Web server url: http://127.0.0.1:49267/
+- 13:38:46.764 INFO: remote_debugging_port = 55630
+- 13:38:46.780 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=55630
+- 13:38:47.121 DEBUG: App::OnContextInitialized()
+- 13:38:47.137 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 13:38:47.137 DEBUG: Window max width/height = 1288/655
+- 13:38:47.137 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 13:38:47.137 DEBUG: GetBrowserWindow(): not found, hwnd = 263212
+- 13:38:47.137 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 13:38:47.137 DEBUG: BrowserWindow::CreateBrowserControl()
+- 13:38:47.152 DEBUG: StoreBrowserWindow(): hwnd = 263212
+- 13:38:48.063 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=6960CBD93D020C707E8B86C80BBF6982 --mojo-platform-channel-handle=1268 /prefetch:2
+- 13:38:49.634 DEBUG: ClientHandler::OnAfterCreated()
+- 13:38:49.634 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 13:38:49.931 DEBUG: OnLoadingStateChange: loading=1, url=
+- 13:38:49.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7184AD86AD4608BBB679BFAA7601E90A --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=7184AD86AD4608BBB679BFAA7601E90A --renderer-client-id=3 --mojo-platform-channel-handle=1556 /prefetch:1
+[1013/133849.628:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/133849.628:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/133849.629:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/133849.717:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/133849.718:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/133849.775:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/133849.776:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/133849.777:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/133849.777:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/133849.777:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 13:38:49.265 DEBUG: OnBrowserCreated()
+- 13:38:53.581 INFO: GET 200 /
+- 13:38:54.673 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49267/
+- 13:47:04.860 DEBUG: WM_DESTROY
+- 13:47:04.875 DEBUG: RemoveBrowserWindow(): hwnd = 263212
+- 13:47:04.875 INFO: Stopping Mongoose web server
+- 13:47:04.906 DEBUG: Mongoose webserver stopped immediately
+- 13:47:04.922 DEBUG: OnBeforeClose() hwnd=394228
+- 13:47:04.938 DEBUG: RemoveBrowserWindow(): hwnd = 394228
+- 13:47:04.953 DEBUG: GetBrowserWindow(): not found, hwnd = 394228
+- 13:47:04.969 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 13:47:04.000 DEBUG: Calling CefQuitMessageLoop()
+- 14:31:02.311 INFO: --------------------------------------------------------
+- 14:31:02.326 INFO: Started application
+- 14:31:02.326 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:31:02.326 INFO: Log level = DEBUG4
+- 14:31:02.326 INFO: Starting Mongoose 3.9c web server
+- 14:31:02.326 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:31:02.326 INFO: Index files: index.html,index.php
+- 14:31:02.326 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:31:02.326 INFO: CGI pattern: **.php$
+- 14:31:02.326 INFO: Hide files patterns: 
+- 14:31:02.342 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:31:02.373 INFO: Web server url: http://127.0.0.1:49170/
+- 14:31:02.420 INFO: remote_debugging_port = 49186
+- 14:31:04.807 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=49186
+- 14:31:34.015 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=D8C8149A8015A4152F58B0456F6247FF --mojo-platform-channel-handle=1352 /prefetch:2
+- 14:31:37.349 DEBUG: App::OnContextInitialized()
+- 14:31:37.349 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:31:37.349 DEBUG: Window max width/height = 1288/655
+- 14:31:37.349 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:31:37.349 DEBUG: GetBrowserWindow(): not found, hwnd = 197420
+- 14:31:37.349 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:31:37.364 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:31:37.380 DEBUG: StoreBrowserWindow(): hwnd = 197420
+[1013/143138.535:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/143138.560:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/143138.561:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/143138.718:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/143138.790:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 14:31:39.345 DEBUG: ClientHandler::OnAfterCreated()
+- 14:31:39.345 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:31:39.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=32B76D31814823BED18286CBA506BD2B --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --disable-webrtc-hw-vp8-encoding --disable-gpu-compositing --service-request-channel-token=32B76D31814823BED18286CBA506BD2B --renderer-client-id=3 --mojo-platform-channel-handle=1512 /prefetch:1
+- 14:31:39.720 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:31:43.791 DEBUG: OnBrowserCreated()
+- 14:31:54.509 INFO: GET 200 /
+- 14:31:54.852 INFO: GET 200 /ResizeSensor.min.js
+- 14:31:54.852 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:31:54.868 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:31:55.992 INFO: GET 200 /css/app.css
+- 14:31:55.070 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:31:55.102 INFO: GET 200 /js/app.js
+- 14:31:55.663 DEBUG: OnContextCreated()
+- 14:32:01.513 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49170/
+- 14:32:07.973 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49170/
+- 14:32:07.004 INFO: GET 404 /2/edit
+- 14:32:07.425 DEBUG: OnContextCreated()
+- 14:32:07.363 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49170/2/edit
+- 14:32:11.497 DEBUG: WM_DESTROY
+- 14:32:11.544 DEBUG: RemoveBrowserWindow(): hwnd = 197420
+- 14:32:11.544 INFO: Stopping Mongoose web server
+- 14:32:11.560 DEBUG: Mongoose webserver stopped immediately
+- 14:32:11.591 DEBUG: OnBeforeClose() hwnd=66436
+- 14:32:11.606 DEBUG: RemoveBrowserWindow(): hwnd = 66436
+- 14:32:11.606 DEBUG: GetBrowserWindow(): not found, hwnd = 66436
+- 14:32:11.622 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:32:11.638 DEBUG: Calling CefQuitMessageLoop()
+- 14:32:12.872 INFO: Ended application
+- 14:32:12.872 INFO: --------------------------------------------------------
+- 14:32:24.219 INFO: --------------------------------------------------------
+- 14:32:24.219 INFO: Started application
+- 14:32:24.219 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:32:24.219 INFO: Log level = DEBUG4
+- 14:32:24.219 INFO: Starting Mongoose 3.9c web server
+- 14:32:24.234 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:32:24.250 INFO: Index files: index.html,index.php
+- 14:32:24.250 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:32:24.250 INFO: CGI pattern: **.php$
+- 14:32:24.250 INFO: Hide files patterns: 
+- 14:32:24.250 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:32:24.312 INFO: Web server url: http://127.0.0.1:49200/
+- 14:32:24.312 INFO: remote_debugging_port = 53093
+- 14:32:24.328 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=53093
+- 14:32:25.201 DEBUG: App::OnContextInitialized()
+- 14:32:25.217 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:32:25.217 DEBUG: Window max width/height = 1288/655
+- 14:32:25.233 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:32:25.233 DEBUG: GetBrowserWindow(): not found, hwnd = 262952
+- 14:32:25.233 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:32:25.248 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:32:25.264 DEBUG: StoreBrowserWindow(): hwnd = 262952
+- 14:32:26.015 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=A69E6C8C396AEB36BC7A5065FE6CE641 --mojo-platform-channel-handle=1228 /prefetch:2
+- 14:32:26.810 DEBUG: ClientHandler::OnAfterCreated()
+- 14:32:26.810 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:32:26.044 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:32:26.000 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3D9D6196D36E9543AB15B0FF3745D1EB --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3D9D6196D36E9543AB15B0FF3745D1EB --renderer-client-id=3 --mojo-platform-channel-handle=1540 /prefetch:1
+[1013/143226.480:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/143226.480:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/143226.481:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/143226.518:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/143226.518:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/143226.583:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143226.584:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143226.584:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143226.585:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143226.585:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:32:26.266 DEBUG: OnBrowserCreated()
+- 14:32:28.543 DEBUG: OnContextCreated()
+- 14:32:29.649 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:32:29.680 INFO: GET 200 /
+- 14:32:29.758 INFO: GET 200 /ResizeSensor.min.js
+- 14:32:29.774 INFO: GET 200 /css/app.css
+- 14:32:29.758 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:32:29.914 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:32:29.070 INFO: GET 200 /js/app.js
+- 14:32:31.332 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49200/
+- 14:32:39.444 DEBUG: WM_DESTROY
+- 14:32:39.444 DEBUG: RemoveBrowserWindow(): hwnd = 262952
+- 14:32:39.460 INFO: Stopping Mongoose web server
+- 14:32:39.460 DEBUG: Mongoose webserver stopped immediately
+- 14:32:39.460 DEBUG: OnBeforeClose() hwnd=262956
+- 14:32:39.475 DEBUG: RemoveBrowserWindow(): hwnd = 262956
+- 14:32:39.475 DEBUG: GetBrowserWindow(): not found, hwnd = 262956
+- 14:32:39.491 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:32:39.491 DEBUG: Calling CefQuitMessageLoop()
+- 14:32:40.647 INFO: Ended application
+- 14:32:40.663 INFO: --------------------------------------------------------
+- 14:34:43.482 INFO: --------------------------------------------------------
+- 14:34:43.482 INFO: Started application
+- 14:34:43.482 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:34:43.482 INFO: Log level = DEBUG4
+- 14:34:43.482 INFO: Starting Mongoose 3.9c web server
+- 14:34:43.482 INFO: WWW directory: D:\belajar\laravel - php desktop\www
+- 14:34:43.513 INFO: Index files: index.html,index.php
+- 14:34:43.513 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:34:43.513 INFO: CGI pattern: **.php$
+- 14:34:43.513 INFO: Hide files patterns: 
+- 14:34:43.513 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:34:44.606 INFO: Web server url: http://127.0.0.1:49265/
+- 14:34:44.606 INFO: remote_debugging_port = 53375
+- 14:34:44.606 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=53375
+- 14:34:46.572 DEBUG: App::OnContextInitialized()
+- 14:34:46.588 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:34:46.603 DEBUG: Window max width/height = 1288/655
+- 14:34:46.603 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:34:46.603 DEBUG: GetBrowserWindow(): not found, hwnd = 66594
+- 14:34:46.603 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:34:46.619 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:34:46.619 DEBUG: StoreBrowserWindow(): hwnd = 66594
+- 14:34:46.000 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=22983BDC8DA36FCE0713030CB86EAC79 --mojo-platform-channel-handle=1296 /prefetch:2
+[1013/143447.550:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/143447.551:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/143447.551:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/143447.574:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/143447.576:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 14:34:48.616 DEBUG: ClientHandler::OnAfterCreated()
+- 14:34:48.616 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:34:48.000 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D6AB6E9635F4EECC184A2C109460244A --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --disable-webrtc-hw-vp8-encoding --disable-gpu-compositing --service-request-channel-token=D6AB6E9635F4EECC184A2C109460244A --renderer-client-id=3 --mojo-platform-channel-handle=1296 /prefetch:1
+- 14:34:48.318 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:34:49.608 DEBUG: OnBrowserCreated()
+- 14:34:49.285 INFO: GET 200 /
+- 14:34:55.135 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49265/
+- 14:39:03.740 DEBUG: F5 pressed, reloading page
+- 14:39:03.755 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49265/
+- 14:39:03.786 INFO: GET 200 /
+- 14:39:03.880 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49265/
+- 14:39:04.598 DEBUG: F5 pressed, reloading page
+- 14:39:04.613 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49265/
+- 14:39:04.645 INFO: GET 200 /
+- 14:39:04.676 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49265/
+- 14:39:04.816 DEBUG: F5 pressed, reloading page
+- 14:39:04.816 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49265/
+- 14:39:04.847 INFO: GET 200 /
+- 14:39:04.910 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49265/
+- 14:39:04.988 DEBUG: F5 pressed, reloading page
+- 14:39:04.003 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49265/
+- 14:39:04.035 INFO: GET 200 /
+- 14:39:04.097 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49265/
+- 14:39:05.705 DEBUG: WM_DESTROY
+- 14:39:05.705 DEBUG: RemoveBrowserWindow(): hwnd = 66594
+- 14:39:05.752 INFO: Stopping Mongoose web server
+- 14:39:05.768 DEBUG: Mongoose webserver stopped immediately
+- 14:39:05.783 DEBUG: OnBeforeClose() hwnd=66600
+- 14:39:05.783 DEBUG: RemoveBrowserWindow(): hwnd = 66600
+- 14:39:05.799 DEBUG: GetBrowserWindow(): not found, hwnd = 66600
+- 14:39:05.799 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:39:05.815 DEBUG: Calling CefQuitMessageLoop()
+- 14:39:05.971 INFO: Ended application
+- 14:39:05.971 INFO: --------------------------------------------------------
+- 14:39:13.327 INFO: --------------------------------------------------------
+- 14:39:13.327 INFO: Started application
+- 14:39:13.327 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:39:13.327 INFO: Log level = DEBUG4
+- 14:39:13.327 INFO: Starting Mongoose 3.9c web server
+- 14:39:13.327 INFO: WWW directory: D:\belajar\laravel - php desktop\www
+- 14:39:13.327 INFO: Index files: index.html,index.php
+- 14:39:13.343 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:39:13.343 INFO: CGI pattern: **.php$
+- 14:39:13.343 INFO: Hide files patterns: 
+- 14:39:13.359 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:39:13.405 INFO: Web server url: http://127.0.0.1:49368/
+- 14:39:13.405 INFO: remote_debugging_port = 63515
+- 14:39:13.405 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=63515
+- 14:39:13.827 DEBUG: App::OnContextInitialized()
+- 14:39:13.842 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:39:13.858 DEBUG: Window max width/height = 1288/655
+- 14:39:13.858 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:39:13.858 DEBUG: GetBrowserWindow(): not found, hwnd = 1246162
+- 14:39:13.858 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:39:13.889 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:39:14.889 DEBUG: StoreBrowserWindow(): hwnd = 1246162
+- 14:39:14.000 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=7B89CF574EB16D89DF91877D0AE1204B --mojo-platform-channel-handle=1276 /prefetch:2
+[1013/143914.966:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/143914.969:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/143914.969:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+- 14:39:14.872 DEBUG: ClientHandler::OnAfterCreated()
+- 14:39:14.872 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+[1013/143915.071:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/143915.071:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 14:39:15.981 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/143915.170:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143915.171:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143915.171:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143915.172:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/143915.172:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:39:15.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FCA3BE376EEE40817F62390D1F49A116 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=FCA3BE376EEE40817F62390D1F49A116 --renderer-client-id=3 --mojo-platform-channel-handle=1564 /prefetch:1
+- 14:39:15.281 DEBUG: OnBrowserCreated()
+- 14:39:16.948 INFO: GET 200 /
+- 14:39:16.385 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49368/
+- 14:39:18.382 DEBUG: WM_DESTROY
+- 14:39:18.382 DEBUG: RemoveBrowserWindow(): hwnd = 1246162
+- 14:39:18.382 INFO: Stopping Mongoose web server
+- 14:39:18.382 DEBUG: Mongoose webserver stopped immediately
+- 14:39:18.460 DEBUG: OnBeforeClose() hwnd=328768
+- 14:39:18.460 DEBUG: RemoveBrowserWindow(): hwnd = 328768
+- 14:39:18.460 DEBUG: GetBrowserWindow(): not found, hwnd = 328768
+- 14:39:18.475 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:39:18.491 DEBUG: Calling CefQuitMessageLoop()
+- 14:39:18.709 INFO: Ended application
+- 14:39:18.709 INFO: --------------------------------------------------------
+- 14:41:36.624 INFO: --------------------------------------------------------
+- 14:41:36.624 INFO: Started application
+- 14:41:36.624 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:41:36.624 INFO: Log level = DEBUG4
+- 14:41:36.624 INFO: Starting Mongoose 3.9c web server
+- 14:41:36.640 INFO: WWW directory: D:\belajar\laravel - php desktop\www
+- 14:41:36.640 INFO: Index files: index.html,index.php
+- 14:41:36.640 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:41:36.640 INFO: CGI pattern: **.php$
+- 14:41:36.640 INFO: Hide files patterns: 
+- 14:41:36.640 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:41:36.749 INFO: Web server url: http://127.0.0.1:49430/
+- 14:41:36.780 INFO: remote_debugging_port = 52712
+- 14:41:36.780 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=52712
+- 14:41:36.342 DEBUG: App::OnContextInitialized()
+- 14:41:36.373 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:41:36.373 DEBUG: Window max width/height = 1288/655
+- 14:41:36.373 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:41:36.373 DEBUG: GetBrowserWindow(): not found, hwnd = 197658
+- 14:41:36.373 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:41:36.373 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:41:36.389 DEBUG: StoreBrowserWindow(): hwnd = 197658
+- 14:41:37.000 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=8015A496E6A8D8C7DA33753A40D01866 --mojo-platform-channel-handle=1332 /prefetch:2
+- 14:41:37.184 DEBUG: ClientHandler::OnAfterCreated()
+- 14:41:37.184 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:41:37.371 DEBUG: OnLoadingStateChange: loading=1, url=
+[1013/144138.168:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/144138.169:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/144138.169:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+- 14:41:38.015 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=9605D01435AF3BC9D76110D147E4CB37 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=9605D01435AF3BC9D76110D147E4CB37 --renderer-client-id=3 --mojo-platform-channel-handle=1556 /prefetch:1
+[1013/144138.250:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/144138.253:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/144138.829:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/144138.831:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/144138.832:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/144138.833:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/144138.833:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:41:39.061 DEBUG: OnBrowserCreated()
+- 14:41:39.509 INFO: GET 200 /
+- 14:41:40.039 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49430/
+- 14:45:49.048 DEBUG: F5 pressed, reloading page
+- 14:45:49.048 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49430/
+- 14:45:49.095 INFO: GET 200 /
+- 14:45:49.126 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49430/
+- 14:48:56.187 DEBUG: F5 pressed, reloading page
+- 14:48:56.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49430/
+- 14:48:56.234 INFO: GET 200 /
+- 14:48:56.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49430/
+- 14:49:03.973 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49430/
+- 14:49:09.620 INFO: GET 200 /public/highcharts/code/css/highcharts.css
+- 14:49:09.905 DEBUG: OnContextCreated()
+- 14:49:09.651 INFO: GET 200 /public/css/app.css
+- 14:49:09.792 INFO: GET 200 /public/highcharts/code/highcharts.js
+- 14:49:09.823 INFO: GET 200 /public/js/app.js
+- 14:49:09.854 INFO: GET 200 /public/
+- 14:49:11.539 INFO: GET 200 /public/ResizeSensor.min.js
+- 14:49:11.554 INFO: GET 200 /public/theia-sticky-sidebar.min.js
+- 14:49:11.648 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49430/public/
+- 14:49:19.791 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49430/public/
+- 14:49:19.807 INFO: GET 404 /2/edit
+- 14:49:19.139 DEBUG: OnContextCreated()
+- 14:49:19.916 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49430/2/edit
+- 14:49:28.401 DEBUG: WM_DESTROY
+- 14:49:28.417 DEBUG: RemoveBrowserWindow(): hwnd = 197658
+- 14:49:28.417 INFO: Stopping Mongoose web server
+- 14:49:28.432 DEBUG: Mongoose webserver stopped immediately
+- 14:49:28.432 DEBUG: OnBeforeClose() hwnd=197656
+- 14:49:28.448 DEBUG: RemoveBrowserWindow(): hwnd = 197656
+- 14:49:28.448 DEBUG: GetBrowserWindow(): not found, hwnd = 197656
+- 14:49:28.463 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:49:28.463 DEBUG: Calling CefQuitMessageLoop()
+- 14:49:29.573 INFO: Ended application
+- 14:49:29.588 INFO: --------------------------------------------------------
+- 14:50:15.312 INFO: --------------------------------------------------------
+- 14:50:15.312 INFO: Started application
+- 14:50:15.312 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:50:15.312 INFO: Log level = DEBUG4
+- 14:50:15.343 INFO: Starting Mongoose 3.9c web server
+- 14:50:15.343 INFO: WWW directory: D:\belajar\laravel - php desktop\www
+- 14:50:15.343 INFO: Index files: index.html,index.php
+- 14:50:15.343 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:50:15.390 INFO: CGI pattern: **.php$
+- 14:50:15.390 INFO: Hide files patterns: 
+- 14:50:15.390 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:50:15.453 INFO: Web server url: http://127.0.0.1:49544/
+- 14:50:15.468 INFO: remote_debugging_port = 64880
+- 14:50:15.484 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=64880
+- 14:50:15.796 DEBUG: App::OnContextInitialized()
+- 14:50:15.796 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:50:15.796 DEBUG: Window max width/height = 1288/655
+- 14:50:15.796 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:50:15.796 DEBUG: GetBrowserWindow(): not found, hwnd = 787538
+- 14:50:15.796 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:50:15.811 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:50:15.811 DEBUG: StoreBrowserWindow(): hwnd = 787538
+- 14:50:16.014 DEBUG: ClientHandler::OnAfterCreated()
+- 14:50:16.030 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:50:16.139 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:50:16.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0C666E81BF47E902EE7A68495531197D --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=0C666E81BF47E902EE7A68495531197D --renderer-client-id=3 --mojo-platform-channel-handle=1544 /prefetch:1
+- 14:50:16.016 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=798007F23FD3B176806EF9F20EFDA019 --mojo-platform-channel-handle=1280 /prefetch:2
+- 14:50:16.250 DEBUG: OnBrowserCreated()
+[1013/145016.866:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145016.867:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145016.867:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145016.895:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145016.896:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/145016.952:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145016.954:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145016.956:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145016.957:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145016.959:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:50:17.919 INFO: GET 200 /
+- 14:50:17.200 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49544/
+- 14:50:21.178 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49544/
+- 14:50:22.285 INFO: GET 200 /public/highcharts/code/css/highcharts.css
+- 14:50:22.332 INFO: GET 200 /public/css/app.css
+- 14:50:22.379 INFO: GET 200 /public/
+- 14:50:22.426 INFO: GET 200 /public/highcharts/code/highcharts.js
+- 14:50:22.457 INFO: GET 200 /public/js/app.js
+- 14:50:22.100 DEBUG: OnContextCreated()
+- 14:50:22.722 INFO: GET 200 /public/ResizeSensor.min.js
+- 14:50:22.722 INFO: GET 200 /public/theia-sticky-sidebar.min.js
+- 14:50:24.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49544/public/
+- 14:50:25.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49544/public/
+- 14:50:25.469 DEBUG: OnContextCreated()
+- 14:50:25.842 INFO: GET 200 /2/edit
+- 14:50:26.107 INFO: GET 200 /2/style.css
+- 14:50:26.388 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49544/2/edit
+- 14:50:51.692 DEBUG: WM_DESTROY
+- 14:50:51.692 DEBUG: RemoveBrowserWindow(): hwnd = 787538
+- 14:50:51.692 INFO: Stopping Mongoose web server
+- 14:50:51.707 DEBUG: Mongoose webserver stopped immediately
+- 14:50:51.707 DEBUG: OnBeforeClose() hwnd=263192
+- 14:50:51.707 DEBUG: RemoveBrowserWindow(): hwnd = 263192
+- 14:50:51.707 DEBUG: GetBrowserWindow(): not found, hwnd = 263192
+- 14:50:51.723 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:50:51.723 DEBUG: Calling CefQuitMessageLoop()
+- 14:50:51.832 INFO: Ended application
+- 14:50:51.832 INFO: --------------------------------------------------------
+- 14:53:08.234 INFO: --------------------------------------------------------
+- 14:53:08.250 INFO: Started application
+- 14:53:08.250 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:53:08.250 INFO: Log level = DEBUG4
+- 14:53:08.250 INFO: Starting Mongoose 3.9c web server
+- 14:53:08.250 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:53:08.281 INFO: Index files: index.html,index.php
+- 14:53:08.281 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:53:08.297 INFO: CGI pattern: **.php$
+- 14:53:08.297 INFO: Hide files patterns: 
+- 14:53:08.297 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:53:08.390 INFO: Web server url: http://127.0.0.1:49618/
+- 14:53:08.406 INFO: remote_debugging_port = 52116
+- 14:53:08.406 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=52116
+- 14:53:09.780 DEBUG: App::OnContextInitialized()
+- 14:53:09.780 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:53:09.796 DEBUG: Window max width/height = 1288/655
+- 14:53:09.796 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:53:09.796 DEBUG: GetBrowserWindow(): not found, hwnd = 525408
+- 14:53:09.796 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:53:09.796 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:53:09.796 DEBUG: StoreBrowserWindow(): hwnd = 525408
+- 14:53:09.015 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=89C5C54637146F29748FAF2E8AE23DA8 --mojo-platform-channel-handle=1308 /prefetch:2
+- 14:53:09.311 DEBUG: ClientHandler::OnAfterCreated()
+- 14:53:09.311 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:53:09.389 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:53:09.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=51BEFBDA6C3F37F6E5C6585B6C6AD122 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=51BEFBDA6C3F37F6E5C6585B6C6AD122 --renderer-client-id=3 --mojo-platform-channel-handle=1540 /prefetch:1
+[1013/145309.855:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145309.856:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145309.857:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145309.900:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145309.903:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/145309.947:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145309.947:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145309.948:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145309.948:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145309.948:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:53:10.234 DEBUG: OnBrowserCreated()
+- 14:53:11.183 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:53:11.245 INFO: GET 200 /css/app.css
+- 14:53:11.747 DEBUG: OnContextCreated()
+- 14:53:11.463 INFO: GET 200 /js/app.js
+- 14:53:11.510 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:53:11.619 INFO: GET 200 /
+- 14:53:12.649 INFO: GET 200 /ResizeSensor.min.js
+- 14:53:12.665 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:53:13.616 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49618/
+- 14:53:15.519 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49618/
+- 14:53:15.535 INFO: GET 404 /2/edit
+- 14:53:15.037 DEBUG: OnContextCreated()
+- 14:53:15.629 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49618/2/edit
+- 14:53:28.233 DEBUG: WM_DESTROY
+- 14:53:28.233 DEBUG: RemoveBrowserWindow(): hwnd = 525408
+- 14:53:28.280 INFO: Stopping Mongoose web server
+- 14:53:28.296 DEBUG: Mongoose webserver stopped immediately
+- 14:53:28.311 DEBUG: OnBeforeClose() hwnd=394434
+- 14:53:28.311 DEBUG: RemoveBrowserWindow(): hwnd = 394434
+- 14:53:28.327 DEBUG: GetBrowserWindow(): not found, hwnd = 394434
+- 14:53:28.327 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:53:28.327 DEBUG: Calling CefQuitMessageLoop()
+- 14:53:28.514 INFO: Ended application
+- 14:53:28.514 INFO: --------------------------------------------------------
+- 14:56:05.249 INFO: --------------------------------------------------------
+- 14:56:05.249 INFO: Started application
+- 14:56:05.249 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:56:05.249 INFO: Log level = DEBUG4
+- 14:56:05.265 INFO: Starting Mongoose 3.9c web server
+- 14:56:05.265 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:56:05.265 INFO: Index files: index.html,index.php
+- 14:56:05.265 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:56:05.265 INFO: CGI pattern: **.php$
+- 14:56:05.265 INFO: Hide files patterns: 
+- 14:56:05.296 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:56:05.358 INFO: Web server url: http://127.0.0.1:49643/
+- 14:56:05.374 INFO: remote_debugging_port = 49379
+- 14:56:05.374 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=49379
+- 14:56:06.686 DEBUG: App::OnContextInitialized()
+- 14:56:06.686 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:56:06.686 DEBUG: Window max width/height = 1288/655
+- 14:56:06.686 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:56:06.686 DEBUG: GetBrowserWindow(): not found, hwnd = 656634
+- 14:56:06.686 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:56:06.686 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:56:06.702 DEBUG: StoreBrowserWindow(): hwnd = 656634
+- 14:56:06.045 DEBUG: ClientHandler::OnAfterCreated()
+- 14:56:06.045 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:56:06.078 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=7A869ED179E4C1C512FDFEC0E5CAEFBC --mojo-platform-channel-handle=1280 /prefetch:2
+- 14:56:06.263 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:56:06.015 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=001DEEFCB58CB3FF50FC47FA6AE84C33 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=001DEEFCB58CB3FF50FC47FA6AE84C33 --renderer-client-id=3 --mojo-platform-channel-handle=1556 /prefetch:1
+[1013/145607.155:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145607.156:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145607.169:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145607.194:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145607.198:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+- 14:56:07.249 DEBUG: OnBrowserCreated()
+[1013/145607.238:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145607.238:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145607.239:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145607.239:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145607.239:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:56:08.198 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:56:08.919 DEBUG: OnContextCreated()
+- 14:56:08.322 INFO: GET 200 /css/app.css
+- 14:56:08.338 INFO: GET 200 /
+- 14:56:09.478 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:56:09.510 INFO: GET 200 /js/app.js
+- 14:56:09.572 INFO: GET 200 /ResizeSensor.min.js
+- 14:56:09.588 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:56:11.460 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/
+- 14:56:13.268 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/
+- 14:56:15.594 INFO: GET 200 /2/edit
+- 14:56:15.237 DEBUG: OnContextCreated()
+- 14:56:15.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/2/edit
+- 14:56:23.753 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/2/edit
+- 14:56:24.985 INFO: POST 302 /2/edit
+- 14:56:25.829 DEBUG: OnContextCreated()
+- 14:56:25.249 INFO: GET 200 /
+- 14:56:27.105 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/
+- 14:56:30.960 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/
+- 14:56:31.788 DEBUG: OnContextCreated()
+- 14:56:31.161 INFO: GET 200 /baru
+- 14:56:31.301 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/baru
+- 14:56:46.669 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/baru
+- 14:56:47.886 INFO: POST 302 /baru
+- 14:56:48.590 DEBUG: OnContextCreated()
+- 14:56:48.978 INFO: GET 200 /
+- 14:56:50.585 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/
+- 14:56:53.064 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/
+- 14:56:54.109 INFO: GET 302 /2/hapus
+- 14:56:55.766 DEBUG: OnContextCreated()
+- 14:56:55.154 INFO: GET 200 /
+- 14:56:56.246 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/
+- 14:56:59.461 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49643/
+- 14:57:00.553 INFO: GET 302 /3/hapus
+- 14:57:01.288 DEBUG: OnContextCreated()
+- 14:57:01.692 INFO: GET 200 /
+- 14:57:01.347 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49643/
+- 14:57:05.639 DEBUG: WM_DESTROY
+- 14:57:05.639 DEBUG: RemoveBrowserWindow(): hwnd = 656634
+- 14:57:05.639 INFO: Stopping Mongoose web server
+- 14:57:05.654 DEBUG: Mongoose webserver stopped immediately
+- 14:57:05.670 DEBUG: OnBeforeClose() hwnd=656422
+- 14:57:05.670 DEBUG: RemoveBrowserWindow(): hwnd = 656422
+- 14:57:05.670 DEBUG: GetBrowserWindow(): not found, hwnd = 656422
+- 14:57:05.686 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:57:05.701 DEBUG: Calling CefQuitMessageLoop()
+- 14:57:05.873 INFO: Ended application
+- 14:57:05.888 INFO: --------------------------------------------------------
+- 14:58:57.250 INFO: --------------------------------------------------------
+- 14:58:57.250 INFO: Started application
+- 14:58:57.250 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:58:57.250 INFO: Log level = DEBUG4
+- 14:58:57.281 INFO: Starting Mongoose 3.9c web server
+- 14:58:57.297 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:58:57.297 INFO: Index files: index.html,index.php
+- 14:58:57.312 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:58:57.312 INFO: CGI pattern: **.php$
+- 14:58:57.312 INFO: Hide files patterns: 
+- 14:58:57.312 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:58:57.375 INFO: Web server url: http://127.0.0.1:49674/
+- 14:58:57.390 INFO: remote_debugging_port = 59421
+- 14:58:57.390 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=59421
+- 14:58:57.640 DEBUG: App::OnContextInitialized()
+- 14:58:57.640 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:58:57.640 DEBUG: Window max width/height = 1288/655
+- 14:58:57.640 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:58:57.640 DEBUG: GetBrowserWindow(): not found, hwnd = 1639368
+- 14:58:57.640 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:58:57.656 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:58:57.656 DEBUG: StoreBrowserWindow(): hwnd = 1639368
+- 14:58:58.999 DEBUG: ClientHandler::OnAfterCreated()
+- 14:58:58.014 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:58:58.170 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:58:58.016 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=889339D4AD7946F13ACDBE5F98645E8C --mojo-platform-channel-handle=1292 /prefetch:2
+- 14:58:58.015 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2FE18D4E5292456FE809565A0514AF71 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=2FE18D4E5292456FE809565A0514AF71 --renderer-client-id=3 --mojo-platform-channel-handle=1548 /prefetch:1
+[1013/145858.500:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145858.501:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145858.501:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145858.541:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145858.542:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/145858.582:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145858.583:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145858.584:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145858.584:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145858.584:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:58:58.265 DEBUG: OnBrowserCreated()
+- 14:58:59.122 DEBUG: WM_DESTROY
+- 14:58:59.122 DEBUG: RemoveBrowserWindow(): hwnd = 1639368
+- 14:58:59.122 INFO: Stopping Mongoose web server
+- 14:58:59.138 DEBUG: Mongoose webserver stopped immediately
+- 14:58:59.153 DEBUG: OnBeforeClose() hwnd=1311584
+- 14:58:59.153 DEBUG: RemoveBrowserWindow(): hwnd = 1311584
+- 14:58:59.169 DEBUG: GetBrowserWindow(): not found, hwnd = 1311584
+- 14:58:59.169 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:58:59.184 DEBUG: Calling CefQuitMessageLoop()
+- 14:58:59.356 INFO: Ended application
+- 14:58:59.356 INFO: --------------------------------------------------------
+- 14:59:07.265 INFO: --------------------------------------------------------
+- 14:59:07.265 INFO: Started application
+- 14:59:07.265 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:59:07.265 INFO: Log level = DEBUG4
+- 14:59:07.265 INFO: Starting Mongoose 3.9c web server
+- 14:59:07.265 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:59:07.265 INFO: Index files: index.html,index.php
+- 14:59:07.280 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:59:07.280 INFO: CGI pattern: **.php$
+- 14:59:07.280 INFO: Hide files patterns: 
+- 14:59:07.280 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:59:07.327 INFO: Web server url: http://127.0.0.1:49677/
+- 14:59:07.343 INFO: remote_debugging_port = 53837
+- 14:59:07.343 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\START.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=53837
+- 14:59:07.655 DEBUG: App::OnContextInitialized()
+- 14:59:07.670 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:59:07.670 DEBUG: Window max width/height = 1288/655
+- 14:59:07.670 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:59:07.686 DEBUG: GetBrowserWindow(): not found, hwnd = 918718
+- 14:59:07.686 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:59:07.733 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:59:07.748 DEBUG: StoreBrowserWindow(): hwnd = 918718
+- 14:59:08.123 DEBUG: ClientHandler::OnAfterCreated()
+- 14:59:08.138 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:59:08.031 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=D7D9C9015D5023FB9E5CFA27A0F148B1 --mojo-platform-channel-handle=1292 /prefetch:2
+- 14:59:08.310 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:59:08.015 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\START.exe" --type=renderer --no-sandbox --primordial-pipe-token=3F53ED58771201B8A874DA2A2F8D3A7C --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=3F53ED58771201B8A874DA2A2F8D3A7C --renderer-client-id=3 --mojo-platform-channel-handle=1544 /prefetch:1
+[1013/145908.671:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145908.672:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145908.672:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145908.710:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145908.711:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/145908.743:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145908.743:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145908.744:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145908.744:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145908.744:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:59:08.249 DEBUG: OnBrowserCreated()
+- 14:59:10.010 INFO: GET 200 /
+- 14:59:10.073 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:59:10.716 DEBUG: OnContextCreated()
+- 14:59:10.135 INFO: GET 200 /css/app.css
+- 14:59:10.166 INFO: GET 200 /ResizeSensor.min.js
+- 14:59:10.182 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:59:10.385 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:59:10.432 INFO: GET 200 /js/app.js
+- 14:59:12.600 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49677/
+- 14:59:15.236 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49677/
+- 14:59:16.391 INFO: GET 200 /1/edit
+- 14:59:16.002 DEBUG: OnContextCreated()
+- 14:59:16.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49677/1/edit
+- 14:59:30.540 DEBUG: WM_DESTROY
+- 14:59:30.540 DEBUG: RemoveBrowserWindow(): hwnd = 918718
+- 14:59:30.571 INFO: Stopping Mongoose web server
+- 14:59:30.571 DEBUG: Mongoose webserver stopped immediately
+- 14:59:30.571 DEBUG: OnBeforeClose() hwnd=918730
+- 14:59:30.587 DEBUG: RemoveBrowserWindow(): hwnd = 918730
+- 14:59:30.587 DEBUG: GetBrowserWindow(): not found, hwnd = 918730
+- 14:59:30.587 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:59:30.587 DEBUG: Calling CefQuitMessageLoop()
+- 14:59:31.759 INFO: Ended application
+- 14:59:31.759 INFO: --------------------------------------------------------
+- 14:59:32.234 INFO: --------------------------------------------------------
+- 14:59:32.234 INFO: Started application
+- 14:59:32.234 INFO: Logging to: D:\belajar\laravel - php desktop\debug.log
+- 14:59:32.234 INFO: Log level = DEBUG4
+- 14:59:32.234 INFO: Starting Mongoose 3.9c web server
+- 14:59:32.234 INFO: WWW directory: D:\belajar\laravel - php desktop\www\public
+- 14:59:32.234 INFO: Index files: index.html,index.php
+- 14:59:32.234 INFO: CGI interpreter: D:\belajar\laravel - php desktop\php\php-cgi.exe
+- 14:59:32.234 INFO: CGI pattern: **.php$
+- 14:59:32.234 INFO: Hide files patterns: 
+- 14:59:32.250 INFO: CGI environment variables set: TMP=C:\Users\zen\AppData\Local\Temp\,TEMP=C:\Users\zen\AppData\Local\Temp\,TMPDIR=C:\Users\zen\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:59:32.296 INFO: Web server url: http://127.0.0.1:49690/
+- 14:59:32.312 INFO: remote_debugging_port = 58804
+- 14:59:32.312 DEBUG: Command line string for the browser process: "D:\belajar\laravel - php desktop\START.exe" --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --remote-debugging-port=58804
+- 14:59:33.593 DEBUG: App::OnContextInitialized()
+- 14:59:33.608 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 14:59:33.608 DEBUG: Window max width/height = 1288/655
+- 14:59:33.608 DEBUG: Window max size exceeded, new width/height = 1000/655
+- 14:59:33.608 DEBUG: GetBrowserWindow(): not found, hwnd = 1967058
+- 14:59:33.608 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:59:33.624 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:59:33.624 DEBUG: StoreBrowserWindow(): hwnd = 1967058
+- 14:59:33.000 DEBUG: Command line string for the gpu-process process: "D:\belajar\laravel - php desktop\START.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --disable-d3d11 --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,16,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0xa011 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=8.15.10.2567 --gpu-driver-date=10-30-2011 --gpu-secondary-vendor-ids=0x8086 --gpu-secondary-device-ids=0xa012 --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --service-request-channel-token=8D9366ECFCBA975456DA616BF6810B9D --mojo-platform-channel-handle=1304 /prefetch:2
+- 14:59:33.076 DEBUG: ClientHandler::OnAfterCreated()
+- 14:59:33.092 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:59:33.279 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:59:33.016 DEBUG: Command line string for the renderer process: "D:\belajar\laravel - php desktop\START.exe" --type=renderer --no-sandbox --primordial-pipe-token=A77ABECBEA5B2BEA55B4CCC5E4797C26 --lang=en-US --lang=en-US --log-file="D:\belajar\laravel - php desktop\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=1 --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --disable-accelerated-video-decode --service-request-channel-token=A77ABECBEA5B2BEA55B4CCC5E4797C26 --renderer-client-id=3 --mojo-platform-channel-handle=1556 /prefetch:1
+[1013/145933.885:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 0: No available renderers.
+[1013/145933.886:ERROR:gl_surface_egl.cc(676)] eglInitialize D3D9 failed with error EGL_NOT_INITIALIZED
+[1013/145933.886:ERROR:gl_initializer_win.cc(247)] GLSurfaceEGL::InitializeOneOff failed.
+[1013/145933.981:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+[1013/145933.982:ERROR:gpu_child_thread.cc(330)] Exiting GPU process due to errors during initialization
+[1013/145934.065:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145934.066:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145934.066:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145934.066:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+[1013/145934.067:ERROR:browser_gpu_channel_host_factory.cc(113)] Failed to launch GPU process.
+- 14:59:34.328 DEBUG: OnBrowserCreated()
+- 14:59:35.995 INFO: GET 200 /highcharts/code/css/highcharts.css
+- 14:59:35.732 DEBUG: OnContextCreated()
+- 14:59:35.042 INFO: GET 200 /
+- 14:59:35.136 INFO: GET 200 /ResizeSensor.min.js
+- 14:59:35.136 INFO: GET 200 /css/app.css
+- 14:59:35.136 INFO: GET 200 /theia-sticky-sidebar.min.js
+- 14:59:35.323 INFO: GET 200 /js/app.js
+- 14:59:35.370 INFO: GET 200 /highcharts/code/highcharts.js
+- 14:59:38.725 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 14:59:41.596 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 14:59:42.797 INFO: GET 200 /baru
+- 14:59:42.487 DEBUG: OnContextCreated()
+- 14:59:42.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/baru
+- 14:59:51.470 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/baru
+- 14:59:52.343 INFO: POST 302 /baru
+- 14:59:54.421 DEBUG: OnContextCreated()
+- 14:59:54.731 INFO: GET 200 /
+- 14:59:56.463 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:00:00.862 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 15:00:01.891 INFO: GET 302 /4/hapus
+- 15:00:02.658 DEBUG: OnContextCreated()
+- 15:00:02.999 INFO: GET 200 /
+- 15:00:03.013 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:00:05.259 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 15:00:06.119 DEBUG: OnContextCreated()
+- 15:00:06.429 INFO: GET 200 /1/edit
+- 15:00:07.554 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/1/edit
+- 15:00:09.754 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/1/edit
+- 15:00:10.846 INFO: POST 302 /1/edit
+- 15:00:11.612 DEBUG: OnContextCreated()
+- 15:00:11.969 INFO: GET 200 /
+- 15:00:12.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:00:14.933 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 15:00:15.978 INFO: GET 200 /baru
+- 15:00:15.746 DEBUG: OnContextCreated()
+- 15:00:15.150 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/baru
+- 15:00:23.763 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/baru
+- 15:00:24.808 INFO: POST 302 /baru
+- 15:00:25.559 DEBUG: OnContextCreated()
+- 15:00:25.931 INFO: GET 200 /
+- 15:00:26.493 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:00:31.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 15:00:32.828 DEBUG: OnContextCreated()
+- 15:00:32.138 INFO: GET 200 /baru
+- 15:00:32.263 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/baru
+- 15:00:41.186 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/baru
+- 15:00:42.278 INFO: POST 302 /baru
+- 15:00:43.045 DEBUG: OnContextCreated()
+- 15:00:43.386 INFO: GET 200 /
+- 15:00:44.119 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:00:52.576 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/
+- 15:00:53.762 INFO: GET 200 /baru
+- 15:00:53.452 DEBUG: OnContextCreated()
+- 15:00:53.902 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/baru
+- 15:00:58.003 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:49690/baru
+- 15:00:59.080 INFO: POST 302 /baru
+- 15:01:00.987 DEBUG: OnContextCreated()
+- 15:01:00.328 INFO: GET 200 /
+- 15:01:01.905 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:49690/
+- 15:01:08.925 DEBUG: WM_DESTROY
+- 15:01:08.941 DEBUG: RemoveBrowserWindow(): hwnd = 1967058
+- 15:01:08.941 INFO: Stopping Mongoose web server
+- 15:01:08.941 DEBUG: Mongoose webserver stopped immediately
+- 15:01:08.956 DEBUG: OnBeforeClose() hwnd=1508506
+- 15:01:08.972 DEBUG: RemoveBrowserWindow(): hwnd = 1508506
+- 15:01:08.972 DEBUG: GetBrowserWindow(): not found, hwnd = 1508506
+- 15:01:08.972 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:01:08.987 DEBUG: Calling CefQuitMessageLoop()
+- 15:01:08.159 INFO: Ended application
+- 15:01:08.159 INFO: --------------------------------------------------------
